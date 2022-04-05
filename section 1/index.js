@@ -3,7 +3,7 @@ const saveEl = document.getElementById("save-el") // assigns the object from HTM
 const countEl = document.getElementById("counting") // does the same thing from line 2
 const increment=()=>{
     count++ // increments count by 1
-    countEl.innerText = count // assigns the value of count to the text in HTML document
+    countEl.textContent = count // assigns the value of count to the text in HTML document
 }
 function save(){
     let newCount = `${count}-` 
