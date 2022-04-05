@@ -5,9 +5,9 @@ const increment=()=>{
     count++ // increments count by 1
     countEl.textContent = count // assigns the value of count to the text in HTML document
 }
-const save=()=>{
+const save = () => {
     let newCount = `${count}-` 
-    saveEl.innerText += " " + newCount 
+    saveEl.innerText += ` ${newCount}` 
     countEl.textContent = 0
     count = 0 // reinitializes count
 }
